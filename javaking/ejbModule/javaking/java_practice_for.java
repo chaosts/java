@@ -48,7 +48,7 @@ public class java_practice_for {
     
     	
     	
-/* 별찍기    	
+/* 별찍기   	
 
    for(int i=1; i<=5; i++) 
    {
@@ -64,22 +64,24 @@ public class java_practice_for {
 	   
 	   System.out.println();  
    } 
+ */
     	
-/* 피라미드 */
+    	
+/* 피라미드 
     
-//    int num =11;
-//    for(int i=1; i<num; i++) {
-//    	for(int j=i; j<num-1; j++ ) 
-//    	{
-//    		System.out.print(" ");
-//    	}
-//    	for(int c=1; c<i*2; c++) 
-//    	{
-//    		System.out.print("*");
-//    	}
-//    	System.out.println();
-//    }
-    
+    int num =11;
+    for(int i=1; i<num; i++) {
+    	for(int j=i; j<num-1; j++ ) 
+    	{
+    		System.out.print(" ");
+    	}
+    	for(int c=1; c<i*2; c++) 
+    	{
+    		System.out.print("*");
+    	}
+    	System.out.println();
+    }
+ */   
 
 /* 확장 for문     	
 // 반복대상(배열/콜렉션)의  값들을 하나하나 저장할 변수를 지정하여 반복 처리한다.

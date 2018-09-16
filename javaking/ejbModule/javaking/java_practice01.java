@@ -43,17 +43,17 @@ System.out.println(big_cal1);
 */
 
 
-
-/* BigDecimal(객체)의 관계(논리)연산자 
+/*
+// BigDecimal(객체)의 관계(논리)연산자 
  
-    BigDecimal BD1 = new BigDecimal("0.8");
-    BigDecimal BD2 = new BigDecimal("0.8");
+    //BigDecimal BD1 = new BigDecimal("0.8");
+    //BigDecimal BD2 = new BigDecimal("0.8");
     
-    //System.out.println("결과는=" + (BD1 == BD2));
-    //결과는 false를 반환한다. 그이유는 참조변수는 매개변수가 아닌 참조 주소를 리턴한다. 
+   //System.out.println("결과는=" + (BD1 == BD2));
+   //결과는 false를 반환한다. 그이유는 참조변수는 매개변수가 아닌 참조 주소를 리턴한다. 
    
-    //System.out.println("결과는=" + (BD1.equals(BD2)));
-    //equals 를 사용하면 참조주소가아닌 매개변수를 가져 올 수 있다.
+   //System.out.println("결과는=" + (BD1.equals(BD2)));
+   //equals 를 사용하면 참조주소가아닌 매개변수를 가져 올 수 있다.
 */
 
 
