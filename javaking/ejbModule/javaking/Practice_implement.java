@@ -11,7 +11,7 @@ interface Intogether
  
   
   
-/*  
+  
   class cost_as implements Intogether {
 	   int inwon;
 	   private int cost;
@@ -33,9 +33,9 @@ interface Intogether
 		System.out.println("가격정보 = " + inwon * cost );
 		
 	}
-	
-*/	  
+  }
 	  
+/*	  
   class cost_as {
 	    int inwon;
 		protected int cost;
@@ -50,7 +50,12 @@ interface Intogether
 	}
    
   } 
-	
+ 
+ */
+ 
+ 
+ 
+  /*
 	class Foreign extends cost_as implements Intogether {
       // 상속과 추상메서드를 통해 오버라이딩
 		@Override
@@ -68,24 +73,27 @@ interface Intogether
 		
 	}
 		
-
+  */
 
 public class Practice_implement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	/*	
+		
 		cost_as ca = new cost_as();
 		ca.inwon = 10;
 		ca.info(2);
 	    ca.info_cost();
-	*/
-		
+	
+	
+	/*	
 		Foreign f = new Foreign();	
 		f.inwon=10;
 		f.info(2);
 		f.info_cost();
+	*/
+	
 	}
 
 }
